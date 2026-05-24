@@ -1,5 +1,32 @@
-# N_Body_Gravitational_Simulator_Using_Position_Verlet
-A Python-based gravitational N-body simulator using Position Verlet integration for long-term stable orbital dynamics and trajectory visualization.\\\\
-In this project the user is asked to input $N$, the number of particles and the initial parameters $m$ (mass), $x_0, y_0$ (initial position coordinates), $v_x, v_y$ (initial velocity along the axes).\\\\
-The trajectory is computed and plotted. The trajectory of the $COM$ is also plotted. \\
-Further the velocity is determined for the Energy Plots. Lastly an animation is shown for the simulation.
+# N-Body Gravitational Simulator Using Position Verlet
+
+A Python-based gravitational N-body simulator using Position Verlet integration for long-term stable orbital dynamics and trajectory visualization.
+
+## Features
+
+- Simulation of gravitational N-body dynamics in 2D
+- Direct summation force calculation
+- Position Verlet integration for improved long-term numerical stability
+- Trajectory plotting for all particles
+- Centre of Mass (COM) trajectory tracking
+- Velocity computation and energy plots
+- Animation of the full simulation
+
+## Inputs
+
+The user specifies:
+
+- Number of particles $N$
+- Masses of the particles
+- Initial positions $(x_0, y_0)$
+- Initial velocities $(v_x, v_y)$
+- Time-step and total simulation time
+
+## Output
+
+The program generates:
+
+- Particle trajectories
+- Centre of Mass trajectory
+- Energy plots
+- Animated evolution of the system
