@@ -6,6 +6,7 @@ A Python-based gravitational N-body simulator using Position Verlet integration 
 
 - Simulation of gravitational N-body dynamics in 2D
 - Direct summation force calculation
+- Simulator uses normalized units with G=1 for simplicity and numerical convenience (User may modify as per requirement)
 - Position Verlet integration for improved long-term numerical stability
 - Trajectory plotting for all particles
 - Centre of Mass (COM) trajectory tracking
