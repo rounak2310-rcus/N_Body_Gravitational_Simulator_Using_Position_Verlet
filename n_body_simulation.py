@@ -269,11 +269,3 @@ plt.legend()
 from IPython.display import HTML
 
 HTML(anim.to_jshtml())
-
-#anim.save("n_body_simulation.mp4", writer="ffmpeg", fps=30)
-
-#from google.colab import files
-#files.download("n_body_simulation.mp4")
-
-#Use this code to download the video of the animation!
-#Thank You!
